@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"Microsoft YaHei";
+	
+}
+section{
+	font-weight: bold;
+	width:100%; 
+	overflow: hidden;
+
+	}
+.container{
+	margin:0 auto;
+	 width:1140px; 
+	height:100%;
+	 z-index:0;	
+}	
+
+a{
+	text-decoration:none;
+	color:#42474b;
+	/* font-family:"DFKai-sb"; */
+	 }
+p{
+	color:black;
+	}
+a1{
+	color:#42474b;
+	font-style: oblique;
+}
+li{
+	list-style:none;
+}
+li p1:hover{
+	color: salmon;
+}
+	 
+.container .fl{
+	float:left;
+	line-height: 52px;
+	margin-top: 45px;
+	}
+
+.container .fr{
+	float:right;
+	}
+	
+h2 {
+	font-size:46px;
+	 font-weight:normal;
+	 font-family:"DFKai-sb";
+	 }
+
+
+/* 	<!-- firstPage第一頁 --> */
+#block-firstPage{
+	height:1000px;
+	 width:100%; 
+	 background-image: url(../images/123.png)  ;
+	 background-size: cover;
+	 font-size: 100px;
+	 color:white;
+	 text-align: center;
+}
+.blockTitle{
+	display:none;
+	position:absolute;
+	 margin:0 auto;
+	 width:100%;
+	 }
+#fstPage-down{
+	position:absolute;
+	 bottom:16px; 
+	 height:18px; 
+	 width:100%;
+}
+#fstPage-down a{
+	display:block;
+	 height:18px; 
+	 width:32px; 
+	 margin:0 auto;
+	 background:url(../images/down.png) no-repeat center
+	  }
+
+#block-nav {
+ top:0;
+ background: url(../images/01-nav.jpg) center ; background-size:contain;
+ line-height: 52px;
+ height: 52px;
+ color:white;
+}
+#block-nav ul{}
+
+#block-nav ul li{
+	float: left;
+	list-style: none;
+	width: 160px;
+	height: 52px;
+	line-height:52px; 
+	text-align: center;	
+}
+#block-nav #nav-intro{
+	padding: 49px;
+}
+#block-nav #nav-workEXP{
+	padding: 49px;
+}
+#block-nav #nav-skill{
+	padding: 46px;
+	border-left: 3px solid #ffffff ;
+	border-right: 3px solid #ffffff ;
+}
+#block-nav #nav-prjEXP{
+	padding: 46px;
+	border-left: 3px solid #ffffff ;
+	border-right: 3px solid #ffffff ;
+}
+#block-nav #nav-wantMore{
+	padding: 49px;
+	
+}
+#block-nav ul li a{
+	text-decoration: none;
+	/* padding:0 47px; */
+	padding-top:0px;
+	height: 52px;
+	font-size:15px; 
+	font-family:"DFKai-sb";
+	cursor:pointer; 
+	z-index: 1;
+	color:#42474b;
+
+	}
+#block-nav a:hover{
+	   background-color: rgb(115, 115, 115);
+	color:white;
+	}
+#logo{display: inline-block;}
+
+#block-intro {
+height:auto;
+width:100%; 
+background:url(../images/0304.jpg); 
+background-size: cover;
+padding:60px 0 100px;
+}
+#intro-icon  {
+	height:300px; width:100%; line-height:300px;
+}
+
+.link{
+	display:inline-block; 
+	height:100px; width:100px; 
+	text-indent: -9999em;-webkit-transition:0.4s linear;
+	transition:0.7s ease-in;
+}
+.link:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+#link-FB {
+	background:url(../images/FB.png) no-repeat center; 
+	margin-left:50px;
+}
+#link-linkedin {
+	background:url(../images/linkedin.png) no-repeat center; 
+	margin-left:50px;
+}
+#myPhoto{
+	height:400px; width:400px; 
+	display:inline-block; 
+	margin:0 0 0 78px;
+}
+#link-blog     {background:url(../images/blog.png) no-repeat center; margin-left:51px;}
+#link-email    {background:url(../images/email.png) no-repeat center; margin-left:50px;}
+
+#intro-text {
+	display:inline-block;
+	margin:80px 0 0 130px;
+	 color:blue;
+}
+p1{color: red;}
+
+#intro-text li {height:40px;}
+/* #intro-text ul li a {display:inline-block;} */
+/* #intro-text ul li a:hover {border-bottom:2px solid white;} */
+#intro-text ul li span {
+	display:inline-block; 
+	color: black;
+	font-size: 20px;
+	font-family:"DFKai-sb";
+/* 	text-align:right;
+	width:70px; */
+	}
+#intro-text div {
+display:inline-block; 
+width:550px;
+ margin-left:160px;
+ margin-top:65px
+ }
+#intro-text>div>p {margin-bottom:26px;}
+
+#block-skill {
+	height:auto;
+	 width:100%;
+	 background-color:#9C58B6;
+	 background: url(../images/html-css.png) center no-repeat;
+	 /* contain圖片撐開 */
+	 /* background-size:contain;  */
+	/* cover填滿標籤頁面 */
+	  background-size:cover;
+	 
+	 color:red;
+	padding-bottom:160px;
+	text-align: center;
+	 }
+
+#block-skill .skill-title {
+		width:300px; 
+		margin:0 auto; 
+		padding-top:100px; 
+		text-align:center;
+}
+#block-skill .skills {
+	height:auto;
+	width:auto;
+	margin-bottom: 100px;
+	}
+#block-skill ul {
+	display:inline-block; height:auto; 
+	width:220px;
+	margin:80px 0 0 56px;
+	border:2px solid blue;
+	font-size:20px;
+	font-family:"Microsoft YaHei light";
+	text-align: center; 
+	vertical-align: top;
+	}
+#block-skill li {
+	height:36px; line-height:36px;
+	}
+
+/* first-child是指定第一個元素語法 */
+#block-skill li:first-child {
+	background-color:blue; 
+	color:red;
+	}
+
+#block-skill li:hover{
+	background-color:blue; 
+	color:white; 
+	cursor:pointer;
+	}
+
+
+#block-workEXP 
+{height:auto;
+ width:100%; 
+ background-color:#26B1B6;
+  color:#e7e7e7;
+  padding:160px 0
+  }
+
+#block-prjEXP {
+	padding:50px 0 200px;
+	 width:100%; 
+	 background-color:#129DE7;
+	  color:#FFFFFF;
+}
+
+#block-wantMore {
+	width:100%;
+	 background-color:#fdeb95;
+	  color:#fff;
+}
+#block-wantMore img{
+float: right;
+width: 25%;
+}
+#block-wantMore #img2{
+float: left;
+	/* width: 34.5%; */
+}
+#block-wantMore>p {
+	display:block;
+	 position:relative; 
+	 margin:0 auto; 
+	 width:100%;
+	  /* line-height: 259px; */
+	 text-align:center;
+	  font-size: 35px;
+	 }
+	 .box{
+	 	width: 40px;
+	 	height: 270px;
+	 	position: fixed;
+	 	left:0 ;
+	 	top:130px ;
+	 }
+	 .box a{
+	 	display: block;
+	 	text-decoration: none;
+	 	color: white;
+	 	background: red;
+	 	border: 1px solid white;
+	 }
+body>a {height:0;}
